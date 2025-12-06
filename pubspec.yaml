@@ -1,0 +1,53 @@
+name: final_ck
+description: "An English learning app converted from Kotlin to Flutter."
+
+publish_to: 'none' # Giữ dòng này nếu bạn không định publish lên pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Giao diện và biểu tượng cơ bản
+  cupertino_icons: ^1.0.8
+
+  # Các package thường dùng cho app học từ vựng
+  provider: ^6.1.2        # quản lý state (thay ViewModel Kotlin)
+  shared_preferences: ^2.3.3  # lưu dữ liệu (điểm, từ vựng, cài đặt)
+  google_fonts: ^6.2.1    # dùng font đẹp hơn
+  flutter_tts: ^4.0.2     # phát âm giọng nói (Text-to-Speech)
+  animations: ^2.0.11     # animation tương tự Compose
+  lottie: ^3.1.2          # hiệu ứng kết thúc luyện tập (giống Compose animation)
+
+  # ✅ Thêm phần này để sửa lỗi Database và openDatabase
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # API và dịch thuật
+  http: ^1.1.0            # gọi API
+  translator: ^1.0.0      # dịch tiếng Việt
+  url_launcher: ^6.2.1    # mở link trong trình duyệt
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+#  assets:
+#    - assets/images/
+
+
+  # fonts tuỳ chọn
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: assets/fonts/Poppins-Bold.ttf
+  #         weight: 700
