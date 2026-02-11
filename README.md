@@ -1,17 +1,6 @@
 # 📚 English Learning App
 
 Ứng dụng học tiếng Anh đa nền tảng được phát triển bằng Flutter.
-
----
-
-## 👨‍💻 Thông tin sinh viên
-
-| Thông tin | Chi tiết |
-|-----------|----------|
-| **Họ và tên** | Nguyễn Văn Dũng |
-| **MSSV** | 4551190009 |
-| **Email** | nguyenvandung6000@gmail.com |
-
 ---
 
 ## 📱 Giới thiệu
@@ -187,13 +176,6 @@ flutter build apk
 ## 📄 License
 
 Dự án được phát triển cho mục đích học tập.
-
----
-
-## 📧 Liên hệ
-
-- **Email**: nguyenvandung6000@gmail.com
-- **MSSV**: 4551190009
 
 ---
 
